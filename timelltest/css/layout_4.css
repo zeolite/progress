@@ -1,0 +1,4 @@
+/*---  width for 1024,960 ---*/
+#content .showpic, #nav .inner, #dock-user {width:936px;}
+#timeline .inner {width:960px;}  
+#timeline .inner .bg-layer {width:154px;right:152px;}

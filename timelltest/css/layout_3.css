@@ -1,0 +1,11 @@
+/*---  width for 1024,960,800 ---*/
+#nav .inner, #dock-user {width:750px;}
+#content .showpic {width:700px;}
+#timeline .inner {width:760px;}
+#timeline .inner .bg-layer {width:190px;right:252px;}
+
+#dock-user .user-info {margin-right:15px;}
+#dock-user .user-name {margin-left:10px;}
+#dock-user .filter li {margin-right:5px;}
+#dock-user .filter a.hide {width:50px;overflow:hidden;}
+

@@ -1,0 +1,17 @@
+/*--- Skin for default style ---*/
+
+/*-- header --*/
+#logo {position:absolute;left:50%;top:0px;width:89px;height:42px;margin-left:-43px;padding-top:10px;background:url(logo.png) 0 10px no-repeat;text-indent:-9999px;cursor:pointer;}
+#nav {background:#695291;border-bottom:solid 1px #D7D4D4;}
+#nav .toolbar .add {color:#3c2a5b;background:url(nav-btn-add.png) 0 0 no-repeat;}
+.showpic .pick a {background:url(pick-line.jpg) 0 0 repeat;}
+.showpic .pick i {background:url(tip-pick.png) center 0 no-repeat;}
+
+/*-- timeline  --*/
+#timeline {background:url(timeline.png) 0 0 repeat-x;background-color:#E2E9F5;}
+#timeline .bg-layer {background:url(timeline.png) 0 -120px  repeat-x;background-color:#F6F8FC;}
+/*-- dialog --*/
+#Add-pic .hd .add a {background:url(add_btn.png) 0 0 no-repeat;}
+#Add-pic .hd .add a.current {background:url(add_btn_c.png) 0 0 no-repeat;}
+#Add-pic .hd .pick a {background:url(pick_btn.png) 0 0 no-repeat;}
+#Add-pic .hd .pick a.current {background:url(pick_btn_c.png) 0 0 no-repeat;}

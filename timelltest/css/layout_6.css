@@ -1,0 +1,5 @@
+/*---  width for 1680,1920 and higher  ---*/
+#content .showpic, #nav .inner, #dock-user {width:1412px;}
+#timeline .inner {width:1568px;}  
+#timeline .inner .bg-layer {width:228px;right:230px;}
+

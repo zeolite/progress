@@ -1,0 +1,4 @@
+/*---  width for 1366 and 1440  ---*/
+#content .showpic, #nav .inner, #dock-user {width:1174px;}
+#timeline .inner {width:1302px;}  
+#timeline .inner .bg-layer {width:190px;right:229px;}

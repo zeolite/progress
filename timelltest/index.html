@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>timell</title>
+<link href="css/core.css" rel="stylesheet" />		
+<link href="skin/default/default.css" rel="stylesheet" />
+<link rel="stylesheet" media="screen and (min-width: 480px) and (max-width: 999px)" href="css/layout_3.css"/> 
+<link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/layout_4.css"/> 
+<link rel="stylesheet" media="screen and (min-width: 1300px)" href="css/layout_5.css" />
+<link rel="stylesheet" media="screen and (min-width: 1600px)" href="css/layout_6.css" /> 
+<!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<header>
+	<nav id="nav">
+        <div class="inner">
+            <ul class="menu">
+                <li class="index"><a href="#">Home</a></li>			
+                <li class="discover"><a href="">Discover</a></li>
+                <li class="about"><a href="">About</a></li>
+            </ul>
+            <h1 id="logo"><a href="/">timell</a></h1>
+            <div class="toolbar">
+                <a href="" class="add">Add+</a>
+                <div id="userlink" class="user-link active">  <!-- 鼠标点击后激活，给div加上"active"样式 -->			
+                    <p><img src="images/avatar_s.jpg" alt="" />Catfish<i></i></p>
+                    <div class="down-list">
+                        <ul class="friend">
+                            <li><a href="#">Invite friends</a></li>
+                            <li><a href="#">Find friends</a></li>
+                        </ul>
+                        <ul class="setting">
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>			
+            </div>
+        </div>
+	</nav>
+    <div id="dock-user">
+    	<div class="user-info">
+            <a href=""><img src="images/avatar_m.jpg" alt="catfish" /></a><a href="" class="user-name">Lans Wang</a>
+        </div>
+    	<ul class="filter">
+            <li class="active"><a href="" class="line">Line</a></li>
+            <li><a href="" class="wall">Wall</a></li>
+            <li><a href="" class="likes">Likes</a></li>
+            <li><a href="" class="hide">Hide blank days</a></li>   <!-- 鼠标点击后激活，给li加上"active"样式 -->	
+        </ul>
+    	<div class="dock-date">
+            <b>GO TO</b>
+            <div id="go-date">
+            	<h4 class="date-num">9/12/2012</h4>
+            </div>
+        </div>
+    </div>
+</header>
+<div id="timeline">
+    <div class="inner">
+        <div class="bg-layer"></div>
+        <div class="line-op">
+            <a id="line-prev" href="#"></a>
+            <a id="line-next" href="#"></a>
+        </div>
+        <div class="fixed-date"><p class="month">NOV</p><b class="year">2011</b></div>
+        <div class="line">   <!--  相对定位层-->
+            <ul style="left:0;">  <!--  绝对定位层，需要控制left的值-->
+                <li class="blank"><a href="">2</a></li>
+                <li class="in"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="out"><a href="">2</a></li>
+                <li class="date"><p class="month">DEC</p></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="in"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="out"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank current"><a href="">2</a></li>
+                <li class="blank current"><a href="">19</a></li>
+                <li class="in current"><a href="">20</a></li>
+                <li class="blank current"><a href="">21</a></li>
+                <li class="out current"><a href="">22</a></li>
+                <li class="blank"><a href="">2</a></li>
+                <li class="blank"><a href="">2</a></li>   
+                <li class="blank"><a href="">2</a></li>   
+                <li class="blank"><a href="">2</a></li>   
+                <li class="blank"><a href="">2</a></li>    
+            </ul>
+        </div>       
+    </div>
+</div>		
+<div id="content">
+    <!-- 线性展示方式开始  -->
+    <div class="pic-op">
+        <a href="#" id="pic-prev">Prev</a>
+        <a href="#" id="pic-next">Next</a>
+    </div>   
+    <div class="line showpic layout" >
+        <ul>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><h6>Aug 21 , 2012</h6><p>oh hi, didn't know you could type here. Well then, I'm a med student with a not so secret love of design.</p><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></li>
+            <li class="pic pick"><a href=""><i>6</i></a><h6>Dec 21 , 2011</h6><p>Pick your day from 3 photos</p></li>
+            <li class="pic add"><a href="">Add</a><h6>Dec 21 , 2011</h6></li>
+            <li class="pic add"><a href="">Add</a><h6>Dec 21 , 2011</h6></li>
+            <li class="pic add"><a href="">Add</a><h6>Dec 21 , 2011</h6></li>
+            <li class="pic words"><a href="">The Richer, has her first solo album in five years released through Kingsway</a><h6>Dec 21 , 2011</h6><p>Oh hi, didn't know you could type here.</p></li>
+            <li class="pic words"><a href="">The Richer, has her first solo album in five years released through Kingsway</a><h6>Dec 21 , 2011</h6><p>Oh hi, didn't know you could type here.</p></li>
+            <li class="pic words"><a href="">The Richer, has her first solo album in five years released through Kingsway</a><h6>Dec 21 , 2011</h6><p>Oh hi, didn't know you could type here.</p></li>
+            <li class="pic words"><a href="">The Richer, has her first solo album in five years released through Kingsway</a><h6>Dec 21 , 2011</h6><p>Oh hi, didn't know you could type here.</p></li>
+            <li class="pic words"><a href="">The Richer, has her first solo album in five years released through Kingsway</a><h6>Dec 21 , 2011</h6><p>Oh hi, didn't know you could type here.</p></li>
+        </ul>
+    </div>
+    <!-- 线性展示方式结束  -->
+    <!-- 图片墙展示方式开始  -->
+    <div class="wall showpic layout" style="display:none;">
+        <ul>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic pick"><a href=""><i>5</i></a><p><b>21 Aug</b></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic add"><a href=""></a><p><b>21 Aug</b></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+            <li class="pic"><a href=""><img src="images/test4.jpg" alt="" /></a><p><b>21 Aug</b><span class="append"><a href="" class="likes">12</a><a href="" class="comm">23</a></span></p></li>
+        </ul>
+    </div>
+    <!-- 图片墙展示方式结束  -->
+</div>
+<footer></footer>
+<div class="mask" style="display:none;height:;"></div>   <!--  mask背景遮罩层，需要js获取页面高度-->
+<div id="dialog">
+    <!--  内页 Start -->  
+    <div id="page-img" style="display:none">   <!-- #page-img 需要js获取top和left  -->
+        <article>
+            <div class="picture"><img src="images/test2.jpg" alt="" /></div>
+            <h6 class="from"><b>15:12</b>Pick from<a href="#">Facebook</a></h6>
+            <div class="comm-list">
+                <p class="your-comm layout">
+                    <a href=""><img src="images/avatar_m.jpg" alt="" /></a>
+                    <textarea id="comm-send">Your comment...</textarea>
+                </p>
+                <dl class="layout">
+                    <dt><a href=""><img src="images/test3.jpg" alt="" /></a></dt>
+                    <dd class="txt"><a href="" class="user">NIghtfall</a>If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the Web.</dd>
+                </dl>
+                <dl class="layout">
+                    <dt><a href=""><img src="images/test3.jpg" alt="" /></a></dt>
+                    <dd class="txt"><a href="" class="user">NIghtfall</a>If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the Web.</dd>
+                </dl>
+            </div>
+        </article>
+        <aside>
+            <i class="close"></i>
+            <h2>2011-11-12</h2>
+            <p class="brief">The optimal pH values for the formation of Cu, Ag and Au NCs are 4.4 The pH-dependence may be attributed to the ionization of carboxyl groups and the conformational change of polymer chains. At lower pH, carboxyl groups </p>
+            <div class="info">
+                <p class="owner"><a href=""><img src="images/test3.jpg" alt="" /></a><a href="" class="user">Catfish</a><a href="" class="btn">Follow</a></p>
+                <div class="share">
+                    <b>Share</b>
+                    <a href="" class="facebook">facebook</a>
+                    <a href="" class="twitter">twitter</a>
+                    <a href="" class="email">email</a>
+                </div>
+                <div class="like">
+                    <b>30 Like</b>
+                    <ul>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                        <li><a href=""><img src="images/avatar_mm.jpg" alt="" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <!--  内页 End  -->
+
+    <!--  导航Add按钮后弹出层 Start  -->
+    <div id="nav-add" class="ibox" style="display:none;">
+        <h3 class="hd">Add<b class="close">X</b></h3>
+        <div class="bd"><a href="" class="add"></a><a href="" class="pick"></a></div>
+    </div>
+    <!--  导航Add按钮后弹出层 End  -->
+
+    <!--  添加图片层 Start  -->
+    <div id="Add-pic" class="ibox"  style="display:none;">
+        <div class="hd">
+            <div class="title">
+                <span class="add"><a href="#" class="current">Add</a></span><span class="pick"><a href="">Pick</a></span><em>Choose the date</em></div>   <!-- 选中标签后，给a加上current样式  -->
+                <div id="date-sel"><b>2012-1-5</b></div>
+                <b class="close">X</b>
+            </div>
+        <div class="bd add-tab layout">
+            <form action="">
+                <div class="info">
+                    <p class="txt">Add new photo for your day or just write your story</p>
+                    <a href="#" class="upload btn">Upload</a>
+                    <div class="story">
+                        <h6>How about this day...</h6>
+                        <textarea name="" id=""></textarea>
+                        <p class="op">
+                            <input type="submit" class="sub btn" value="Add" />
+                            <label for=""><input type="checkbox" class="ck" tabindex="3" />Share</label>
+                        </p>
+                    </div>
+                </div>       
+            </form>
+            <div id="pre-img-add" class="pre-img">
+                <img alt="" src="images/test.jpg" style="width:320px;height: 320px;">
+                <span class="top" style="left: 40px; width: 250px; height:20px;"></span><span class="right" style="width: 30px;"></span><span class="bottom" style="left: 40px; width: 250px; height: 50px;"></span><span class="left" style="width: 40px;"></span><div class="center" style="left: 40px; top: 20px; width: 248px; height: 248px;"><p><span class="c-t"></span><span class="c-l"></span><span class="c-b"></span><span class="c-r"></span><span class="c-br"></span><span class="c-tr"></span></p></div>
+            </div>
+        </div>
+        <div class="bd pick-tab layout">
+            <div class="pick-list layout">
+                <p class="txt">Pick photos from your internet services<a href="">Manage your feed accounts &gt;</a></p>
+                <ul>
+                	<li><a href=""><img src="images/test.jpg" alt="" /></a><p>~Facebook</p></li>
+                	<li><a href=""><img src="images/test.jpg" alt="" /></a><p>~Facebook</p></li>
+                	<li><a href=""><img src="images/test.jpg" alt="" /></a><p>~Facebook</p></li>
+                	<li><a href=""><img src="images/test.jpg" alt="" /></a><p>~Facebook</p></li>
+                	<li><a href=""><img src="images/test.jpg" alt="" /></a><p>~Facebook</p></li>
+                </ul>
+                <dl class="numlist">
+                	<dt>5/10</dt>
+                	<dd><a href="" class="left">Next &gt;</a></dd>
+                	<dd><a href="" class="right">&lt;&nbsp;Prev</a></dd>
+                </dl>
+            </div>
+            <div class="pick-info">
+                <form action="">
+                    <div class="story">
+                        <h6>How about this day...</h6>
+                        <textarea name="" id=""></textarea>
+                        <p class="op">
+                            <input type="submit" class="sub btn" value="Pick" />
+                            <label for=""><input type="checkbox" class="ck" tabindex="3" />Share</label>
+                        </p>
+                    </div>
+                    <div id="pre-img-pick" class="pre-img">
+                        <img alt="" src="images/test.jpg" style="width:320px;height: 320px;">
+                        <span class="top" style="left: 40px; width: 250px; height: 20px;"></span><span class="right" style="width: 30px;"></span><span class="bottom" style="left: 40px; width: 250px; height: 50px;"></span><span class="left" style="width: 40px;"></span><div class="center" style="left: 40px; top: 20px; width: 248px; height: 248px;"><p><span class="c-t"></span><span class="c-l"></span><span class="c-b"></span><span class="c-r"></span><span class="c-br"></span><span class="c-tr"></span></p></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--  添加图片层 End  -->
+</div>
+</body>
+</html>
